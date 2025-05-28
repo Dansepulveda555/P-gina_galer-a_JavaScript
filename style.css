@@ -1,0 +1,218 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: #000000;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+}
+
+h6{
+    text-align: center;
+    color: #667eea;
+    font-family: Arial, sans-serif;
+}
+
+#mensaje-bienvenida {
+    text-align: center;
+    margin: 0;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#opcion {
+    background-color: white;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#mensaje {
+    background-color: white;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+//----------------
+
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+.section-intro {
+    padding: 2rem 1rem;
+    margin: 2rem 0;
+}
+
+.footer-light {
+    background-color: #f8f9fa;
+}
+
+.carousel-caption-bg {
+    background-color: rgba(0, 0, 0, 0.287);
+    border-radius: 10px;
+}
+
+.carousel-item img {
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+
+.welcome-box {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.interactive-section {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 2rem 0;
+}
+
+.btn-custom {
+    background: linear-gradient(45deg, #ff6b6b, #ee5a52);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.visitor-counter {
+    background: #000000;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.highlight {
+    background-color: yellow;
+    transition: background-color 0.5s ease;
+}
+
+.art-info {
+    background: #e9ecef;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+.quote-display {
+    font-style: italic;
+    font-size: 1.2em;
+    color: #6c757d;
+    text-align: center;
+    padding: 1rem;
+    border-left: 4px solid #007bff;
+    margin: 1rem 0;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.eliminar-btn {
+    width: 110px;
+    align-self: center;
+}
+
+.obra-img {
+  cursor: pointer;
+}
+
+.modal-content {
+  background-color: #fff;
+  border-radius: 8px;
+}
